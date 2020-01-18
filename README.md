@@ -1,5 +1,5 @@
 # dd-agent-nvml
-The datadog/agent image, but with ngi644/datadog_nvml installed
+The [datadog/agent](https://hub.docker.com/r/datadog/agent/) image, but with [ngi644/datadog_nvml](https://github.com/ngi644/datadog_nvml) installed
 
 # Important notes
 
