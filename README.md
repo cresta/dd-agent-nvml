@@ -11,3 +11,7 @@ Please keep image explicit, with an extact SHA for datadog-gpustat and exact ima
 
 Just run the agent from this Dockerfile (https://quay.io/repository/cresta/dd-agent-nvml) instead of datadog's official agent.  Or make
 your own in a similar extended way as this one (It's a pretty tiny Dockerfile).
+
+# Tips
+
+Just make sure your `docker run` includes `docker run --runtime=nvidia` or the correct .so files will not be exposed.  More info at [nvidia-docker](https://github.com/NVIDIA/nvidia-docker).
