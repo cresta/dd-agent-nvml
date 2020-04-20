@@ -18,7 +18,7 @@ RUN ddev config set extras ./integrations-extras
 RUN ddev -e release build helm
 
 # You will need to change this version to whichever datadog version you want to install
-FROM datadog/agent:7.18.0
+FROM datadog/agent:7.18.1
 
 COPY --from=wheel_builder /wheels-nvml/integrations-extras/nvml/dist/ /dist-nvml
 COPY --from=wheel_builder /wheels-nvml/integrations-extras/nvml/requirements.in /requirements.in.nvml
