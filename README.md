@@ -1,11 +1,7 @@
 [![Docker Repository on Quay](https://quay.io/repository/cresta/dd-agent-nvml/status "Docker Repository on Quay")](https://quay.io/repository/cresta/dd-agent-nvml)
 # dd-agent-nvml
-The [datadog/agent](https://hub.docker.com/r/datadog/agent/) image, but with [henry0312/datadog-gpustat](https://github.com/henry0312/datadog-gpustat) installed
+The [datadog/agent](https://hub.docker.com/r/datadog/agent/) image, but with nvml eand helm integration installed
 
-
-# Important notes
-
-Please keep image explicit, with an extact SHA for datadog-gpustat and exact image ID for datadog agent
 
 # How to use
 
